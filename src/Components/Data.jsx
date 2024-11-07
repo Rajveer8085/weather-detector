@@ -46,7 +46,7 @@ const Data = () => {
         `https://api.openweathermap.org/data/2.5/weather?q=${cityEle}&units=metric&appid=${"ce5324a286c846d879e89ee6fbc5448f"}`
       );
      
-      console.log(response.data)
+  
        const icon = allIcons[response.data.weather[0].icon]|| clearIcon
        // Convert sunrise time to a 12-hour format string
 
