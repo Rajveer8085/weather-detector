@@ -1,7 +1,7 @@
 body{
   margin: 0;
   padding: 0;
-  background-image: url(./assets/img/beautiful-natural-clouds-sky.jpg);
+  background-image: url(./assets/img/background.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   text-transform: capitalize;
@@ -15,7 +15,7 @@ body{
 }
 .weather_data{
   margin: 20px 0  ;
-  background-color: rgba(76, 119, 168, 0.6);
+  background-color: rgba(31, 45, 62, 0.38);
   backdrop-filter: blur(10px);
   border-radius: 20px;
   width: 35%;
